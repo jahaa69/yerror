@@ -8,7 +8,10 @@
   }
   body {
     width: 100vw;
-    background: linear-gradient(rgb(250, 87, 87), rgb(200, 87, 87), rgb(150, 87, 87), rgb(100, 87, 87), rgb(50, 87, 87), rgb(0, 87, 87), rgb(0, 87, 87));
+    background: linear-gradient(
+      rgba(248, 161, 170, 1) 0%,
+      rgba(0, 61, 108, 1) 100%
+    );
   }
   
 
@@ -50,12 +53,16 @@
     color: #000000;
     border-bottom: 1px solid transparent;
   }
+  .list{
+    display: flex;
+  }
   
   .header ul li a:hover {
     color: #fff;
     border-bottom: 1px solid #fff;
     padding-bottom: 5px;
     transition: 0.4s;
+    text-transform: uppercase;
   }
 
   .bodypage{
@@ -75,7 +82,7 @@
   .font{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100px;
-    color: rgb(0, 87, 87);
+    color: rgb(60,61,108);
   }
 
   .parti_Projet{
@@ -155,3 +162,20 @@
   }
 
 
+  .lien{
+    text-decoration: none;
+    color: rgba(248, 161, 170, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  @media screen and (max-width: 769px) {
+    .video iframe{
+      width: 40%;
+      height: 40%;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    body{
+      width: 100%;
+    }
+  }

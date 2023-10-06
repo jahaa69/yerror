@@ -11,8 +11,8 @@ function changeColorAndSize() {
     const scrollMax = height - windowHeight;
     const ratio = scroll / scrollMax;
     
-    // Change logo and list item colors
-    const color = `rgb(${255 * ratio}, 87, 87)`;
+    // Change logo color et list color pour fair un degrade de couleur entre 60,61,108 et 248, 161, 170  au scroll
+    const color = "rgb(" + (60 + (188 * ratio)) + "," + (61 + (100 * ratio)) + "," + (108 + (62 * ratio)) + ")";
     logo.style.color = color;
     for (let i = 0; i < list.length; i++) {
         list[i].style.color = color;
