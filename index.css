@@ -86,7 +86,7 @@
   }
 
   .parti_Projet{
-    margin-top: 50%;
+    margin-top: 30%;
   }
 
   .video{
@@ -168,14 +168,50 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  @media screen and (max-width: 769px) {
-    .video iframe{
-      width: 40%;
-      height: 40%;
+  @media screen and (max-width: 828px) {
+    .bodypage{
+      width: 100%;
+    }
+    .frame{
+      width: 90%;
+    }
+    .footer{
+      width: 100%;
+    }
+    .deux{
+      size: 50%;
+    }
+    .image{
+      height: 60px;
+    }
+    .titreimg{
+      font-size: 20px;
+    }
+    .titre{
+      width: 100%;
     }
   }
-  @media screen and (max-width: 426px) {
-    body{
+  @media screen and (max-width:426px) {
+    .bodypage{
       width: 100%;
+    }
+    .frame{
+      width: 90%;
+    }
+    .footer{
+      width: 100%;
+    }
+    .deux{
+      size: 50%;
+    }
+    .image{
+      height: 40px;
+    }
+    .titreimg{
+      font-size: 20px;
+    }
+    .titre{
+      width: 50%;
+      font-size: 10px;
     }
   }
